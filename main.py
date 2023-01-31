@@ -11,7 +11,7 @@ from twitter_bot import TwitterBot
 
 
 # the interval between tweets in seconds
-TWEET_INTERVAL = 0.002*3600
+TWEET_INTERVAL = 12*3600
 
 openai.api_key = os.getenv("OPENAI_API_KEY")
 
