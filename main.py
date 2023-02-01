@@ -85,7 +85,7 @@ if __name__ == "__main__":
     # Setting the bot to tweet every 12 hours
     current_time = time.time()
 
-    print("Currently the bot is set to tweet every"+ TWEET_INTERVAL/3600+ " hours")
+    print("Currently the bot is set to tweet every"+ str(TWEET_INTERVAL/3600)+ " hours")
     # Tweeting the first time
     tweet_startup_script(startup_twitter_bot)
 
