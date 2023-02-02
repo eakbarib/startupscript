@@ -7,11 +7,11 @@ from twitteraccount import TwitterAccount
 
 # add your own keys and tokens here
 # you can get them from https://developer.twitter.com/en/apps
-# and https://openai.com/docs/developer-quickstart/api-keys
+# and https://platform.openai.com/docs/api-reference/authentication
 # my twitter account is @startupscript
 
 # load the openai api key from the environment variables
-# refer to https://openai.com/docs/developer-quickstart/api-keys
+# refer to https://platform.openai.com/docs/api-reference/authentication
 openai.api_key = os.getenv("OPENAI_API_KEY")
 twitter_credentials_file = "startupscript.json"
 
