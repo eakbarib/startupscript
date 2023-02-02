@@ -27,8 +27,7 @@ Step 10: Offer incentives to recruit drivers 💰
 
 Then this program partitions this long script! into few threads just like shown in the image below:
 
-
-
+![A screenshot of the bot posting a startup idea tweet thread](https://github.com/samadley/startupscript/blob/master/resources/sample_thread.png)
 
 
 
