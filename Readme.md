@@ -54,14 +54,14 @@ Then, run the following command to install the dependencies (```openai``` and ``
 pip install -r requirements.txt
 ```
 
-## Important! (Getting your OpenAI and Twitter Developer API keys)
+Important! (Getting your OpenAI and Twitter Developer API keys)
 
 Next up, you need to:
 1. Setup your OpenAI API key -> ([Sign up for free and get your API key](https://platform.openai.com/account/api-keys))
 2. Get your Twitter Developer API key and secret and also consumer API key and secret -> [Open this link and sign up and copy the required API keys and secrets](https://developer.twitter.com/apps)
 When you are doing step 2, paste the obtained API keys and secrets into a ```startup.json``` file in the main directory of the project. Use the below image for clarifications:
 
-
+![A screenshot of what your ```json``` file should contain](https://github.com/samadley/startupscript/blob/master/resources/credentials_json.png)
 
 After getting your API keys and creating the ```json``` file, you're all set! Run the main program script( ```main.py``` )by typing below command into your terminal:
 
